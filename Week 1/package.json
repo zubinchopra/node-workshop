@@ -1,0 +1,14 @@
+{
+  "name": "javascript_workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Greeting.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zubin Chopra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
