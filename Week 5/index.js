@@ -7,7 +7,7 @@ const app = express();
 
 const PORT = process.env.port || 8080;
 
-mongoose.connect('mongodb://zchopra:node@ds243728.mlab.com:43728/node-workshop');
+mongoose.connect('mongodb://<dbusername>:<dbpassword>@ds243728.mlab.com:43728/node-workshop');
 mongoose.Promise = global.Promise;
 
 app.use(bodyParser.json());
